@@ -34,7 +34,7 @@ install() {
     mv exploits /opt/Easy-Script && mv creds /opt/Easy-Script/ && mv recon /opt/Easy-Script
     mv wireless-script /opt/Easy-Script
     # moving files
-    mv easy-script.sh /opt/Easy-Script/ && mv tool.sh /opt/Easy-Script/
+    mv easy-script.sh /opt/Easy-Script/ && mv tool.sh /opt/Easy-Script/ && mv recon /opt/Easy-Script
     mkdir /opt/Easy-Script/Cap
   } &> /dev/null
   echo "[                     ]"
