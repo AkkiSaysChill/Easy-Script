@@ -21,6 +21,7 @@ bash setup.sh
 
 ## Updates :
 * improve setup.sh file
+* Added a DoS menue
 * you cannot create payloads and keylogger because it was causing error
 * fix some errors
 
