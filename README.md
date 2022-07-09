@@ -20,9 +20,8 @@ bash setup.sh
 ```
 
 ## Updates :
-* added owasp juice shop installer
-* you can now scan for xss vulnerability
-* now you can create payloads and keylogger
+* improve setup.sh file
+* you cannot create payloads and keylogger because it was causing error
 * fix some errors
 
 
