@@ -15,11 +15,12 @@ function main(){
 		echo -e "${RED}what you want me to do${NC}?"
 		echo ""
 		echo -e "${Y}1.${NC} ${RED}to only create fake ap type${NC} ${Y}fap${NC}" #done
-		echo -e "${Y}2.${NC} ${RED}to capture a handshake file type${NC} ${Y}handshake${NC}" #doing
+		echo -e "${Y}2.${NC} ${RED}to capture a handshake file type${NC} ${Y}handshake${NC}"
 		echo -e "${Y}3.${NC} ${RED}to crack a psswd of a hand shake file type${NC} ${Y}.cap${NC}"
 		echo -e "${Y}4.${NC} ${RED}to enable monitor mode in wlan0 type${NC} ${Y}mon${NC}" #done
 		echo -e "${Y}5.${NC} ${RED}to scan for vulnerability of a device type${NC} ${Y}recon${NC}" #done
 		echo -e "${Y}6.${NC} ${RED}to scen for xss vulnerability tyrp${NC} ${Y}xsscan${NC}"
+		echo -e "${Y}2.${NC} ${RED}to start a xss website using Beef${NC} ${Y}StartXSS${NC}" 
 		echo -e "${Y}7.${NC} ${RED}to restore wireless interface type${NC} ${Y}disable_mon${NC}" #done
     echo -e "${Y}1.${NC} ${RED}to perform a DoS attack type ${NC} ${Y}dos${NC}"
 		echo -e "${Y}8.${NC} ${RED}to go back type${NC} ${Y}0${NC}"
@@ -152,6 +153,9 @@ else
               elif [ "$wifi" == "dos" ]
               then
                 python3 /opt/Easy-Script/wireless-script/DDoS.py
+				elif ["$wifi" == "StartXSS"]
+				then 
+					echo -e "${RED}Comming ${NC}${Y}Soon${NC}"
 							else
 								clear
 								echo -e "${RED}Invalid ${NC}${Y}Command${NC}"
