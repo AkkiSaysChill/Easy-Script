@@ -7,8 +7,15 @@
 
 ## installation 
 
+* main
 ```
 git clone https://github.com/Akkislinuxstuff/Easy-Script.git
+```
+
+* beta
+
+```
+git clone -b Beta https://github.com/Akkislinuxstuff/Easy-Script.git
 ```
 
 ```
@@ -24,6 +31,7 @@ bash setup.sh
 * Added a DoS menue
 * you cannot create payloads and keylogger because it was causing error
 * fix some errors
+* added a beta branch might not be stable
 
 
 # screenshots

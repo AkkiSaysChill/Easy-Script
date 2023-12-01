@@ -110,15 +110,17 @@ function spinner() {
   printf "\n"
 }
 
-# Main function
 function main() {
-  if [ -e /sbin/airmon-ng ]; then
-    spinner "Installing dependencies..." "apt install -y airmon-ng" 3
+  if command -v airmon-ng &>/dev/null; then
     air-ng
+  else
+    spinner "Installing dependencies..." "apt install -y airmon-ng" 3
   fi
 
   create_fake_ap
 }
+
+
 
 # Start the script
 main
