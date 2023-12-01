@@ -43,13 +43,14 @@ bash setup.sh
 
 ![pic3](https://github.com/Akkislinuxstuff/images_for_easy-script/blob/main/easy3.png)
 
+<!--
 #### easter-egg
 
 * **if you find all of the rr**
 * **upload it on instagram**
 * **in the post use #akkilunuxstuff**
 * **thank you for wasting your time**
-
+-->
 ## issue
 **If you find any error please report I will try to fix the problem as soon as possiable**
 <br /><br />
