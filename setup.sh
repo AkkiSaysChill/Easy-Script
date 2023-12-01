@@ -42,6 +42,13 @@ install_dependencies() {
   fi
 }
 
+uninstall_sh() {
+  echo "creating uninstall.sh ..."
+  mv install/uninstall.sh /opt/Easy-Script
+  create_launcher
+}
+
+
 install() {
   if [ -e /opt/Easy-Script ]; then
     # ... (similar changes for the existing code)
