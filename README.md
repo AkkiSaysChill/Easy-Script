@@ -54,5 +54,3 @@ bash setup.sh
 ## issue
 **If you find any error please report I will try to fix the problem as soon as possiable**
 <br /><br />
-**If you have any idea post it on instagram and tag me**
-* [My instagram](https://www.instagram.com/abhimanyu__islive/)
